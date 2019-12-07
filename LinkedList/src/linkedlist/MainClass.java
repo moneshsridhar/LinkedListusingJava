@@ -18,7 +18,11 @@ public class MainClass
         list.insert(3);
         list.insert(6);
         list.insert(9);
-        
+        list.insertAtStart(12);
+        list.insertAt(2,15);
+        list.insertAt(5,18);
+        list.deleteAt(2);
+        list.deleteAt(0);
         list.show();
     }
 }
